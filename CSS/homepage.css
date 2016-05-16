@@ -1,0 +1,104 @@
+﻿body {
+	font-family: "Arial Narrow",Arial,sans-serif;
+	color: black;
+}
+#container {
+	padding-top: 15px;
+}
+p {
+	text-align: justify;
+	text-indent: 3rem;
+}
+.noindent {
+	text-indent:0px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial,"Arial Narrow",sans-serif;
+}
+h4 {
+	text-align: center;
+}
+.btn-custom {
+	text-align: left;
+	color: black;
+	font-family: inherit;
+	margin: 2px 0px;
+	padding-left: 5px !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0000ff+0,ffffff+100 */
+	background: rgb(0,0,255); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(0,0,255,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,255,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(0,0,255,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(0,0,255,1) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(0,0,255,1) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(0,0,255,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0000ff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+}
+#heading1, #heading2, #url {
+	margin-top: 0px;
+	line-height: 110%;
+}
+#heading1 {
+	color: #000098;
+}
+#heading2 {
+	color: #c89800;
+}
+#logo {
+	margin-right: 15px;
+}
+@media (max-width:580px){
+	#logo{
+	float: none !important;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	}
+	#heading1, #heading2, #url {
+	text-align: center;
+	}
+}
+#bibleVerse p {
+	text-align: center;
+	text-indent: 0em;
+	margin-bottom: 5px;
+}
+#index div {
+	padding-right: 0rem;
+}
+#rzf {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#backTop {
+	transition: all 800ms ease;
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+}
+#backTop a {
+	margin: 0px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+.lg-icon {
+	font-size: 20px !important;
+	color: black !important;
+}
+@media (min-width:641px){
+	#backTop {
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+	.lg-icon {
+		font-size: 25px !important;
+	}
+}
+.arial {
+	font-family: Arial,"Arial Narrow",sans-serif;
+}
+.wrap {
+	word-wrap: break-word;
+}
